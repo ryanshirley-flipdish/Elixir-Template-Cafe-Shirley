@@ -12,6 +12,8 @@
 	// ====================================
 	// ================================= */
 :root {
+     /*Font-Size*/
+     --new-font-size: "17px";
     /*colours*/
     --header-background: #ffffff;
     --header-colour-tabs: #595959;
@@ -62,7 +64,10 @@
     --heading-font: "Alegreya", serif; /* Used for main headings - SECTIONS | About */
     --main-font: "Josefin Sans"; /* Used for main body text */
 }
-
+/*New Font*/
+#aboutSection p.text{
+ font-size: var(--new-font-size) !important;
+ }
 /*Header Background Colour*/
 body #header {
     background: var(--header-background) !important;
