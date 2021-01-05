@@ -12,6 +12,8 @@
 	// ====================================
 	// ================================= */
 :root {
+	/*Font-Size-Heading*/
+     --about-heading-font-size:48px;
      /*Header Logo-Size*/
      --header-logo-size: 150px;
      /*Font-Size*/
@@ -67,6 +69,9 @@
     --main-font: "Josefin Sans"; /* Used for main body text */
 }
 /*GENERAL CHANGES*/
+#aboutSection .container h2.heading{
+ font-size: var(--about-heading-font-size) !important;
+ }
 .logointro{
 height: var(--header-logo-size) !important;
  }
