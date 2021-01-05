@@ -12,8 +12,10 @@
 	// ====================================
 	// ================================= */
 :root {
+     /*Header Logo-Size*/
+     --header-logo-size: 150px;
      /*Font-Size*/
-     --new-font-size: "17px";
+     --about-body-font-size: 17px;
     /*colours*/
     --header-background: #ffffff;
     --header-colour-tabs: #595959;
@@ -64,9 +66,12 @@
     --heading-font: "Alegreya", serif; /* Used for main headings - SECTIONS | About */
     --main-font: "Josefin Sans"; /* Used for main body text */
 }
-/*New Font*/
+/*GENERAL CHANGES*/
+.logointro{
+height: var(--header-logo-size) !important;
+ }
 #aboutSection p.text{
- font-size: var(--new-font-size) !important;
+ font-size: var(--about-body-font-size) !important;
  }
 /*Header Background Colour*/
 body #header {
