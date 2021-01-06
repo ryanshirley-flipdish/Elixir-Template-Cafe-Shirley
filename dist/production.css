@@ -402,6 +402,20 @@ input[type]:focus,
     min-height: 500px !important;
 }
 
+section#home-slider #discount-badge {
+    background-color: var(--hero-background-button);
+    border: 5px solid var(--hero-colour-button)!important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    left: calc(50% - 150px - 100px) !important;
+    margin-left: 0;
+    top: 40px !important;
+}
+
+#home-slider #discount-badge div {
+    color: var(--hero-colour-button)!important;
+}
+
 @media only screen and (max-width: 1280px) {
     #home-slider {
         min-height: unset !important;
@@ -416,6 +430,10 @@ input[type]:focus,
 
     #owl-main-text .item {
         margin-top: 90px !important;
+    }
+
+    section#home-slider #discount-badge {
+        left: 50px !important;
     }
 }
 
@@ -483,6 +501,7 @@ input[type]:focus,
     object-fit: cover;
     left: 0 !important;
     padding: 0;
+    top: 0 !important;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -797,7 +816,7 @@ section.menu h3 {
     color: var(--opening-colour-days) !important;
     font-style: normal !important;
     font-size: 16px !important;
-    line-height: 24px !important;
+    line-height: 2.5 !important;
     margin-bottom: 0 !important;
     font-weight: 400 !important;
 }
