@@ -15,7 +15,7 @@
 	/*Font-Size-Heading*/
      --about-heading-font-size:48px;
      /*Header Logo-Size*/
-     --header-logo-size: 150px;
+     --hero-logo-size: 150px;
      /*Font-Size*/
      --about-body-font-size: 17px;
      --about-button-font-size: 26px;
@@ -75,7 +75,7 @@
  font-size: var(--about-heading-font-size) !important;
  }
 .logointro{
-height: var(--header-logo-size) !important;
+height: var(--hero-logo-size) !important;
  }
 #aboutSection p.text{
  font-size: var(--about-body-font-size) !important;
