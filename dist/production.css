@@ -67,7 +67,7 @@
     --footer-colour: #595959;
     --footer-background-social: #006341;
     /*fonts*/
-    --heading-font: "Alegreya", serif; /* Used for main headings - SECTIONS | About */
+    --heading-font: "Alegreya"; /* Used for main headings - SECTIONS | About */
     --main-font: "Josefin Sans"; /* Used for main body text */
 }
 /*GENERAL CHANGES*/
