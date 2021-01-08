@@ -371,8 +371,8 @@ input[type]:focus,
     color: var(--header-colour-tabs) !important;
 }
 
-#header .menu-item.current a,
-#header .menu-item a:hover {
+#header nav .menu-item.current a,
+#header nav .menu-item a:hover {
     color: var(--header-colour-highlight) !important;
 }
 
@@ -1594,7 +1594,7 @@ a:focus,
     /* == Home page - Navigation == */
     #header .navbar-nav {
         margin: 0 !important;
-        background-color: var(--second-bg-color) !important;
+        background-color: var(--main-bg-color) !important;
     }
 
     .navbar-nav > li {
