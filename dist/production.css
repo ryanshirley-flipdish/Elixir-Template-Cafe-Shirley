@@ -405,12 +405,12 @@ input[type]:focus,
 }
 
 section#home-slider #discount-badge {
-    background-color: var(--hero-background-button);
+    background-color: var(--hero-background-button) !important;
     border: 5px solid var(--hero-colour-button)!important;
     border-radius: 0 !important;
     box-shadow: none !important;
     left: calc(50% - 150px - 100px) !important;
-    margin-left: 0;
+    margin-left: 0 !important;
     top: 40px !important;
 }
 
