@@ -1396,8 +1396,7 @@ section.mymenu {
 .gallery .voffset200,
 .testimonials .testimonials_img,
 .testimonials .voffset80,
-.testimonials .voffset20,
-.MuiExpansionPanelSummary-content img {
+.testimonials .voffset20 {
     display: none !important;
 }
 
