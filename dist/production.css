@@ -343,7 +343,7 @@ input[type]:focus,
 }
 
 .navbar-toggle {
-    color: var(--main-bg-color) !important;
+    color: var(--header-colour-tabs) !important;
 }
 
 #flipdish-menu .menu__basket.fixed {
@@ -1344,7 +1344,6 @@ section.mymenu {
 #flipdish-menu :not(#\20):not(#\20):not(#\20).MuiTypography-h4,
 #flipdish-menu .menu__items__item__img-holder .fd-h3,
 #flipdish-menu .menu__items__item__header__price .fd-h3 {
-    font-size: 14px !important;
     font-weight: 500 !important;
     font-family: var(--main-font), serif !important;
 }
@@ -1593,11 +1592,16 @@ a:focus,
     /* == Home page - Navigation == */
     #header .navbar-nav {
         margin: 0 !important;
-        background-color: var(--main-bg-color) !important;
+        background-color: var(--header-background) !important;
+		box-shadow: 0px 3px 3px rgba(0,0,0,0.4);
     }
+	
+	header a span {
+    color: var(--header-colour-tabs) !important;
+}
 
     .navbar-nav > li {
-        border-bottom-color: var(--body-font-color);
+        border-bottom-color: var(--header-colour-tabs);
     }
 
     /* == Home page - Hero == */
