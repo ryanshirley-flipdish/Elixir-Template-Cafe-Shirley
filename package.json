@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile:development": "node compile.js development",
+    "compile:production": "node compile.js production",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/ryanshirley-flipdish/Elixir-Template-Cafe-Shirley#readme",
   "devDependencies": {
-    "auto-changelog": "^2.2.1"
+    "auto-changelog": "^2.2.1",
+    "sass": "^1.32.7"
   }
 }
